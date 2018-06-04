@@ -1,0 +1,28 @@
+{
+  "name": "forrina/framework-env-forrina-admin",
+  "description": "Forrina Admin environment for Forrina product",
+  "homepage": "https://github.com/alirezarahmani/framework-env-forrina-admin",
+  "require": {
+    "forrina/framework-forrina-admin": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/alirezarahmani/framework"
+    }, {
+      "type": "vcs",
+      "url": "https://github.com/alirezarahmani/framework-forrina"
+    }, {
+      "type": "vcs",
+      "url": "https://github.com/alirezarahmani/framework-admin"
+    }, {
+      "type": "vcs",
+      "url": "https://github.com/alirezarahmani/framework-forrina-admin"
+    }, {
+      "type": "vcs",
+      "url": "https://github.com/moodlehq/rtlcss-php"
+    }
+  ]
+}
